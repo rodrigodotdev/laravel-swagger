@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Krtz\LaravelSwagger;
+namespace Rayo\LaravelSwagger;
 
 use Illuminate\Support\ServiceProvider;
 

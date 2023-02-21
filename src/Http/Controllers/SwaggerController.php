@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Krtz\LaravelSwagger\Http\Controllers;
+namespace Rayo\LaravelSwagger\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Http\Response;
 use Illuminate\View\View;
-use Krtz\LaravelSwagger\Swagger;
+use Rayo\LaravelSwagger\Swagger;
 
 class SwaggerController extends Controller
 {

@@ -7,13 +7,13 @@ A simple swagger integration with laravel
 Require the package using composer:
 
 ```bash
-composer require krtz/laravel-swagger
+composer require rayo/laravel-swagger
 ```
 
 Publish the config file and view files using the following command:
 
 ```bash
-php artisan vendor:publish --provider="Krtz\LaravelSwagger\SwaggerServiceProvider"
+php artisan vendor:publish --provider="Rayo\LaravelSwagger\SwaggerServiceProvider"
 ```
 
 It will publish the config file `swagger.php` and the view file `index.blade.php` in the `resources/views/vendor/laravel-swagger` directory.

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Krtz\LaravelSwagger\Http\Controllers\SwaggerController;
+use Rayo\LaravelSwagger\Http\Controllers\SwaggerController;
 
 return [
 

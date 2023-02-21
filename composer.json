@@ -1,5 +1,5 @@
 {
-    "name": "krtz/laravel-swagger",
+    "name": "rayo/laravel-swagger",
     "description": "A simple swagger integration with laravel",
     "type": "library",
     "license": "MIT",
@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Krtz\\LaravelSwagger\\": "src/"
+            "Rayo\\LaravelSwagger\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Krtz\\LaravelSwagger\\SwaggerServiceProvider"
+                "Rayo\\LaravelSwagger\\SwaggerServiceProvider"
             ]
         }
     },
